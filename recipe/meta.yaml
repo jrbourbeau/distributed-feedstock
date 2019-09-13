@@ -33,7 +33,6 @@ requirements:
     - msgpack-python
     - psutil >=5.0
     - pyyaml
-    - six
     - sortedcontainers !=2.0.0,!=2.0.1
     - tblib
     - toolz >=0.7.4
