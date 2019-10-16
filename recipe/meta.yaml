@@ -29,7 +29,7 @@ requirements:
     - click >=6.6
     - cloudpickle >=0.2.2
     - cytoolz >=0.7.4
-    - dask-core >=2
+    - dask-core >=2.5.2
     - msgpack-python
     - psutil >=5.0
     - pyyaml
