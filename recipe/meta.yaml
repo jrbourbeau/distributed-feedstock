@@ -9,7 +9,7 @@ source:
   sha256: f099a2b552d42913f8cf3a6f5a9e1a15fbab0354e5bd49e9da04199fea2a6c63
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - dask-scheduler=distributed.cli.dask_scheduler:go
     - dask-ssh=distributed.cli.dask_ssh:go
@@ -21,11 +21,11 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
     - pip
 
   run:
-    - python >=3.5
+    - python >=3.6
     - click >=6.6
     - cloudpickle >=0.2.2
     - cytoolz >=0.7.4
